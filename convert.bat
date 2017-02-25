@@ -38,10 +38,10 @@ rmdir /S /Q output
 
 
 
-move /Y "HoloLensProgrammingBook.pdf" "C:\Users\kaoru\Dropbox\Books\HoloLensProgrammingBook"
+move /Y "HoloLensProgrammingBook.pdf" %HOMEPATH%\Dropbox\Books\HoloLensProgrammingBook
 
 
-move /Y "HoloLensProgrammingBook.docx" "C:\Users\kaoru\Dropbox\Books\HoloLensProgrammingBook"
+move /Y "HoloLensProgrammingBook.docx" %HOMEPATH%\Dropbox\Books\HoloLensProgrammingBook
 
 
 pause
